@@ -3,6 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: #2acfb9;
+}
+#image-home{
+    width:90%;
+}
+#menu-link:hover{
+    color: #0051DE !important;
 }
