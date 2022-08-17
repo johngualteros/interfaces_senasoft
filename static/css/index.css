@@ -21,3 +21,21 @@ body{
 #menu-link:hover{
     color: #0051DE !important;
 }
+#services , #container-cards-services, #content-dashboard{
+    min-height: 100vh;
+    height: auto;
+}
+/* Datatables styles */
+.dataTable-input, .dataTable-selector{
+    width: 100%;
+    border: 1px solid #2acfb9;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 14px;
+    color: #333;
+    outline: none;
+    font-weight: bold;
+}
+.dataTable-selector{
+    width: auto;
+}
