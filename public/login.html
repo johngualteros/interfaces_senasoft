@@ -15,7 +15,7 @@
       href="../util/colors-template-master/css/style.css"
     />
     <link rel="stylesheet" href="../util/aos-master/dist/aos.css" />
-  </head>
+    </head>
   <body>
     <section class="vh-100 vw-100 text-dark row">
       <div class="col-md-5 d-none d-md-block">
@@ -24,7 +24,9 @@
           class="w-100 h-100"
         />
       </div>
-      <div class="col-md-7 px-5 py-1">
+      <div
+        class="col-md-7 d-flex justify-content-center align-items-center flex-column"
+      >
         <div class="w-100 text-end">
           <img
             src="https://www.creativefabrica.com/wp-content/uploads/2021/03/20/Modern-S-Letter-logo-Design-Graphics-9785245-1.jpg"
@@ -32,7 +34,7 @@
             alt="Logo"
           />
         </div>
-        <form>
+        <form class="w-75" id="formLogin">
           <h1 class="display-4 text-center fw-bold text-blue-king">Sign In</h1>
 
           <div class="mb-3">
@@ -43,8 +45,8 @@
               id="email"
               placeholder="Enter your email address"
             />
-            <span class="text-danger fw-semibold"
-              >The email is already created</span
+            <span class="text-danger fw-semibold" id="error"
+              ></span
             >
           </div>
           <div class="mb-3">
@@ -56,12 +58,13 @@
               placeholder="Enter your password"
             />
           </div>
-          <span class="text-danger fw-semibold"
-            >the password must have a minimum of 8 characters</span
+          <span class="text-danger fw-semibold" id="errorPassword"
+            ></span
           >
 
           <button
             class="btn btn-blue-king w-100 fw-bold rounded shadow-sm my-5 fs-5"
+            id="btnLogin"
           >
             Log in
           </button>
@@ -75,6 +78,7 @@
         </p>
       </div>
     </section>
+    <script src="../static/js/main.js"></script>
     <script src="../util/colors-template-master/lib/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="../util/aos-master/dist/aos.js"></script>
     <script>

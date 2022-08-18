@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <!-- Icon -->
+    <link
+      rel="icon"
+      href="https://www.creativefabrica.com/wp-content/uploads/2021/03/20/Modern-S-Letter-logo-Design-Graphics-9785245-1.jpg"
+    />
+    <!-- Link Aos -->
+    <link rel="stylesheet" href="../util/aos-master/dist/aos.css" />
+    <!-- Link Bootstap -->
+    <link
+      rel="stylesheet"
+      href="../util/colors-template-master/css/style.css"
+    />
+    <!-- LINK VANILA DATATABLES CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/mobius1/vanilla-Datatables@latest/vanilla-dataTables.min.css"
+    />
+    <!-- LINK VANILA DATATABLES JS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/gh/mobius1/vanilla-Datatables@latest/vanilla-dataTables.min.js"
+    ></script>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="../static/css/index.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm bg-light fixed-top pe-5 shadow-sm">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-auto">
+            <a class="nav-link text-blue-dark fw-bold" id="menu-link" href="#"
+              ><img
+                src="../util/icons-template/icons/bxs-user-circle.svg"
+                alt="User icon"
+              />
+              Profile</a
+            >
+            <a href="#" class="nav-link text-blue-dark fw-bold">|</a>
+            <a class="nav-link text-blue-king fw-bold" href="./index.html"
+              ><img
+                src="../util/icons-template/icons/door-open.svg"
+                alt="icon Logout"
+              />
+              Log Out</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Home -->
+    <div class="container py-5" id="content-dashboard">
+      <div class="row pt-5 d-flex justify-content-around align-items-center">
+        <div
+          class="col-md-3 bg-primary shadow rounded px-2 py-5 text-center fw-bold text-blue-dark mb-2"
+        >
+          <h2 class="fs-1">$260.000</h2>
+          <p class="fs-5">Final Movement</p>
+          <span class="badge bg-success text-blue-dark py-2 px-5"
+            >Positive</span
+          >
+        </div>
+        <div
+          class="col-md-3 bg-teal shadow rounded px-2 py-5 text-center fw-bold text-blue-dark mb-2"
+        >
+          <h2 class="fs-1">$800.000</h2>
+          <p class="fs-5">Total Balance</p>
+          <span class="badge bg-warning text-blue-dark py-2 px-5">Average</span>
+        </div>
+        <div
+          class="col-md-3 bg-info shadow rounded px-2 py-5 text-center fw-bold text-blue-dark mb-2"
+        >
+          <h2 class="fs-1">$120.000</h2>
+          <p class="fs-5">Final Transaction</p>
+          <span class="badge bg-red-deep text-blue-dark py-2 px-5"
+            >Negative</span
+          >
+        </div>
+      </div>
+      <div class="row card card-body p-0 shadow rounded my-2">
+        <table id="datat">
+          <thead class="text-center bg-teal text-white">
+            <tr>
+              <th>Id</th>
+              <th>Name</th>
+              <th>Last Name</th>
+              <th>Email</th>
+              <th>Pasword</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody class="text-center">
+            <tr>
+              <td>1</td>
+              <td>Juan</td>
+              <td>Perez</td>
+              <td>juan@gmail.com</td>
+              <td>dwedn35r35etvdebwendm</td>
+              <td>
+                <a href="#" class="btn btn-success my-2 fw-bold">
+                  <img
+                    src="../util/icons-template/icons/pencil-fill.svg"
+                    alt="Edit Icon"
+                  />
+                </a>
+                <a href="#" class="btn btn-danger my-2 fw-bold">
+                  <img
+                    src="../util/icons-template/icons/trash.svg"
+                    alt="Delete Icon"
+                  />
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Juan</td>
+              <td>Perez</td>
+              <td>juan@gmail.com</td>
+              <td>dwedn35r35etvdebwendm</td>
+              <td>
+                <a href="#" class="btn btn-success my-2 fw-bold">
+                  <img
+                    src="../util/icons-template/icons/pencil-fill.svg"
+                    alt="Edit Icon"
+                  />
+                </a>
+                <a href="#" class="btn btn-danger my-2 fw-bold">
+                  <img
+                    src="../util/icons-template/icons/trash.svg"
+                    alt="Delete Icon"
+                  />
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Juan</td>
+              <td>Perez</td>
+              <td>juan@gmail.com</td>
+              <td>dwedn35r35etvdebwendm</td>
+              <td>
+                <a href="#" class="btn btn-success my-2 fw-bold">
+                  <img
+                    src="../util/icons-template/icons/pencil-fill.svg"
+                    alt="Edit Icon"
+                  />
+                </a>
+                <a href="#" class="btn btn-danger my-2 fw-bold">
+                  <img
+                    src="../util/icons-template/icons/trash.svg"
+                    alt="Delete Icon"
+                  />
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Juan</td>
+              <td>Perez</td>
+              <td>juan@gmail.com</td>
+              <td>dwedn35r35etvdebwendm</td>
+              <td>
+                <a href="#" class="btn btn-success my-2 fw-bold">
+                  <img
+                    src="../util/icons-template/icons/pencil-fill.svg"
+                    alt="Edit Icon"
+                  />
+                </a>
+                <a href="#" class="btn btn-danger my-2 fw-bold">
+                  <img
+                    src="../util/icons-template/icons/trash.svg"
+                    alt="Delete Icon"
+                  />
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Juan</td>
+              <td>Perez</td>
+              <td>juan@gmail.com</td>
+              <td>dwedn35r35etvdebwendm</td>
+              <td>
+                <a href="#" class="btn btn-success my-2 fw-bold">
+                  <img
+                    src="../util/icons-template/icons/pencil-fill.svg"
+                    alt="Edit Icon"
+                  />
+                </a>
+                <a href="#" class="btn btn-danger my-2 fw-bold">
+                  <img
+                    src="../util/icons-template/icons/trash.svg"
+                    alt="Delete Icon"
+                  />
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Juan</td>
+              <td>Perez</td>
+              <td>juan@gmail.com</td>
+              <td>dwedn35r35etvdebwendm</td>
+              <td>
+                <a href="#" class="btn btn-success my-2 fw-bold">
+                  <img
+                    src="../util/icons-template/icons/pencil-fill.svg"
+                    alt="Edit Icon"
+                  />
+                </a>
+                <a href="#" class="btn btn-danger my-2 fw-bold">
+                  <img
+                    src="../util/icons-template/icons/trash.svg"
+                    alt="Delete Icon"
+                  />
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- CODE DATATABLES -->
+    <script>
+      var datat = document.querySelector("#datat");
+      var dataTable = new DataTable("#datat", {
+        perPage: 20,
+        labels: {
+          placeholder: "Busca por un campo...",
+          perPage: "{select} registros por página",
+          noRows: "No se encontraron registros",
+          info: "Mostrando {start} a {end} de {rows} registros",
+        },
+      });
+    </script>
+    <!-- SCRIPT BOOTSTRAP -->
+    <script src="../util/colors-template-master/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- SCRIPT AOS -->
+    <script src="../util/aos-master/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

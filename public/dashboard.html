@@ -33,7 +33,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm bg-light fixed-top pe-5 shadow-sm">
+    <nav class="navbar navbar-expand-sm bg-teal fixed-top pe-5 shadow-sm z-10">
       <div class="container-fluid">
         <button
           class="navbar-toggler"
@@ -48,15 +48,21 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav mx-auto">
-            <a class="nav-link text-blue-dark fw-bold" id="menu-link" href="#"
+            <a
+              class="nav-link text-blue-dark fw-bold text-white"
+              id="menu-link"
+              href="#"
               ><img
                 src="../util/icons-template/icons/bxs-user-circle.svg"
                 alt="User icon"
               />
               Profile</a
             >
-            <a href="#" class="nav-link text-blue-dark fw-bold">|</a>
-            <a class="nav-link text-blue-king fw-bold" href="./index.html"
+            <a href="#" class="nav-link text-white fw-bold">|</a>
+            <a
+              class="nav-link fw-bold text-white"
+              href="./index.html"
+              id="menu-link"
               ><img
                 src="../util/icons-template/icons/door-open.svg"
                 alt="icon Logout"
@@ -68,175 +74,160 @@
       </div>
     </nav>
     <!-- Home -->
-    <div class="container py-5" id="content-dashboard">
-      <div class="row pt-5 d-flex justify-content-around align-items-center">
+    <div class="p-3" id="content-dashboard">
+      <div class="row">
         <div
-          class="col-md-3 bg-primary shadow rounded px-2 py-5 text-center fw-bold text-blue-dark mb-2"
+          class="col-lg-3 pt-5 d-flex justify-content-around h-100 align-items-center flex-column"
         >
-          <h2 class="fs-1">$260.000</h2>
-          <p class="fs-5">Final Movement</p>
-          <span class="badge bg-success text-blue-dark py-2 px-5"
-            >Positive</span
+          <div
+            class="row bg-primary shadow rounded px-2 py-5 text-center fw-bold text-blue-dark mb-2 w-100"
           >
-        </div>
-        <div
-          class="col-md-3 bg-teal shadow rounded px-2 py-5 text-center fw-bold text-blue-dark mb-2"
-        >
-          <h2 class="fs-1">$800.000</h2>
-          <p class="fs-5">Total Balance</p>
-          <span class="badge bg-warning text-blue-dark py-2 px-5">Average</span>
-        </div>
-        <div
-          class="col-md-3 bg-info shadow rounded px-2 py-5 text-center fw-bold text-blue-dark mb-2"
-        >
-          <h2 class="fs-1">$120.000</h2>
-          <p class="fs-5">Final Transaction</p>
-          <span class="badge bg-red-deep text-blue-dark py-2 px-5"
-            >Negative</span
+            <h2 class="fs-1">$260.000</h2>
+            <p class="fs-5">Final Movement</p>
+            <span class="badge bg-success text-blue-dark py-2 px-5"
+              >Positive</span
+            >
+          </div>
+          <div
+            class="row bg-teal shadow rounded px-2 py-4 text-center fw-bold text-blue-dark mb-2 w-100"
           >
+            <h2 class="fs-1">$800.000</h2>
+            <p class="fs-5">Total Balance</p>
+            <span class="badge bg-warning text-blue-dark py-2 px-5"
+              >Average</span
+            >
+          </div>
+          <div
+            class="row bg-info shadow rounded px-2 py-5 text-center fw-bold text-blue-dark mb-2 w-100"
+          >
+            <h2 class="fs-1">$120.000</h2>
+            <p class="fs-5">Final Transaction</p>
+            <span class="badge bg-red-deep text-blue-dark py-2 px-5"
+              >Negative</span
+            >
+          </div>
         </div>
-      </div>
-      <div class="row card card-body p-0 shadow rounded my-2">
-        <table id="datat">
-          <thead class="text-center bg-teal text-white">
-            <tr>
-              <th>Id</th>
-              <th>Name</th>
-              <th>Last Name</th>
-              <th>Email</th>
-              <th>Pasword</th>
-              <th>Actions</th>
-            </tr>
-          </thead>
-          <tbody class="text-center">
-            <tr>
-              <td>1</td>
-              <td>Juan</td>
-              <td>Perez</td>
-              <td>juan@gmail.com</td>
-              <td>dwedn35r35etvdebwendm</td>
-              <td>
-                <a href="#" class="btn btn-success my-2 fw-bold">
-                  <img
-                    src="../util/icons-template/icons/pencil-fill.svg"
-                    alt="Edit Icon"
-                  />
-                </a>
-                <a href="#" class="btn btn-danger my-2 fw-bold">
-                  <img
-                    src="../util/icons-template/icons/trash.svg"
-                    alt="Delete Icon"
-                  />
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>Juan</td>
-              <td>Perez</td>
-              <td>juan@gmail.com</td>
-              <td>dwedn35r35etvdebwendm</td>
-              <td>
-                <a href="#" class="btn btn-success my-2 fw-bold">
-                  <img
-                    src="../util/icons-template/icons/pencil-fill.svg"
-                    alt="Edit Icon"
-                  />
-                </a>
-                <a href="#" class="btn btn-danger my-2 fw-bold">
-                  <img
-                    src="../util/icons-template/icons/trash.svg"
-                    alt="Delete Icon"
-                  />
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>Juan</td>
-              <td>Perez</td>
-              <td>juan@gmail.com</td>
-              <td>dwedn35r35etvdebwendm</td>
-              <td>
-                <a href="#" class="btn btn-success my-2 fw-bold">
-                  <img
-                    src="../util/icons-template/icons/pencil-fill.svg"
-                    alt="Edit Icon"
-                  />
-                </a>
-                <a href="#" class="btn btn-danger my-2 fw-bold">
-                  <img
-                    src="../util/icons-template/icons/trash.svg"
-                    alt="Delete Icon"
-                  />
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>Juan</td>
-              <td>Perez</td>
-              <td>juan@gmail.com</td>
-              <td>dwedn35r35etvdebwendm</td>
-              <td>
-                <a href="#" class="btn btn-success my-2 fw-bold">
-                  <img
-                    src="../util/icons-template/icons/pencil-fill.svg"
-                    alt="Edit Icon"
-                  />
-                </a>
-                <a href="#" class="btn btn-danger my-2 fw-bold">
-                  <img
-                    src="../util/icons-template/icons/trash.svg"
-                    alt="Delete Icon"
-                  />
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>Juan</td>
-              <td>Perez</td>
-              <td>juan@gmail.com</td>
-              <td>dwedn35r35etvdebwendm</td>
-              <td>
-                <a href="#" class="btn btn-success my-2 fw-bold">
-                  <img
-                    src="../util/icons-template/icons/pencil-fill.svg"
-                    alt="Edit Icon"
-                  />
-                </a>
-                <a href="#" class="btn btn-danger my-2 fw-bold">
-                  <img
-                    src="../util/icons-template/icons/trash.svg"
-                    alt="Delete Icon"
-                  />
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>Juan</td>
-              <td>Perez</td>
-              <td>juan@gmail.com</td>
-              <td>dwedn35r35etvdebwendm</td>
-              <td>
-                <a href="#" class="btn btn-success my-2 fw-bold">
-                  <img
-                    src="../util/icons-template/icons/pencil-fill.svg"
-                    alt="Edit Icon"
-                  />
-                </a>
-                <a href="#" class="btn btn-danger my-2 fw-bold">
-                  <img
-                    src="../util/icons-template/icons/trash.svg"
-                    alt="Delete Icon"
-                  />
-                </a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <div
+          class="col-lg-9 d-flex justify-content-center align-items-center p-5"
+        >
+          <div class="card card-body p-5 shadow rounded my-2">
+            <table id="datat">
+              <thead class="text-center bg-teal text-white">
+                <tr>
+                  <th>Id</th>
+                  <th>Name</th>
+                  <th>Last Name</th>
+                  <th>Email</th>
+                  <th>Pasword</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody class="text-center">
+                <tr>
+                  <td>1</td>
+                  <td>Juan</td>
+                  <td>Perez</td>
+                  <td>juan@gmail.com</td>
+                  <td>dwedn35r35etvdebwendm</td>
+                  <td>
+                    <a href="#" class="btn btn-success my-2 fw-bold">
+                      <img
+                        src="../util/icons-template/icons/pencil-fill.svg"
+                        alt="Edit Icon"
+                      />
+                    </a>
+                    <a href="#" class="btn btn-danger my-2 fw-bold">
+                      <img
+                        src="../util/icons-template/icons/trash.svg"
+                        alt="Delete Icon"
+                      />
+                    </a>
+                  </td>
+                <tr>
+                  <td>1</td>
+                  <td>Juan</td>
+                  <td>Perez</td>
+                  <td>juan@gmail.com</td>
+                  <td>dwedn35r35etvdebwendm</td>
+                  <td>
+                    <a href="#" class="btn btn-success my-2 fw-bold">
+                      <img
+                        src="../util/icons-template/icons/pencil-fill.svg"
+                        alt="Edit Icon"
+                      />
+                    </a>
+                    <a href="#" class="btn btn-danger my-2 fw-bold">
+                      <img
+                        src="../util/icons-template/icons/trash.svg"
+                        alt="Delete Icon"
+                      />
+                    </a>
+                  </td>
+                <tr>
+                  <td>1</td>
+                  <td>Juan</td>
+                  <td>Perez</td>
+                  <td>juan@gmail.com</td>
+                  <td>dwedn35r35etvdebwendm</td>
+                  <td>
+                    <a href="#" class="btn btn-success my-2 fw-bold">
+                      <img
+                        src="../util/icons-template/icons/pencil-fill.svg"
+                        alt="Edit Icon"
+                      />
+                    </a>
+                    <a href="#" class="btn btn-danger my-2 fw-bold">
+                      <img
+                        src="../util/icons-template/icons/trash.svg"
+                        alt="Delete Icon"
+                      />
+                    </a>
+                  </td>
+                <tr>
+                  <td>1</td>
+                  <td>Juan</td>
+                  <td>Perez</td>
+                  <td>juan@gmail.com</td>
+                  <td>dwedn35r35etvdebwendm</td>
+                  <td>
+                    <a href="#" class="btn btn-success my-2 fw-bold">
+                      <img
+                        src="../util/icons-template/icons/pencil-fill.svg"
+                        alt="Edit Icon"
+                      />
+                    </a>
+                    <a href="#" class="btn btn-danger my-2 fw-bold">
+                      <img
+                        src="../util/icons-template/icons/trash.svg"
+                        alt="Delete Icon"
+                      />
+                    </a>
+                  </td>
+                <tr>
+                  <td>1</td>
+                  <td>Juan</td>
+                  <td>Perez</td>
+                  <td>juan@gmail.com</td>
+                  <td>dwedn35r35etvdebwendm</td>
+                  <td>
+                    <a href="#" class="btn btn-success my-2 fw-bold">
+                      <img
+                        src="../util/icons-template/icons/pencil-fill.svg"
+                        alt="Edit Icon"
+                      />
+                    </a>
+                    <a href="#" class="btn btn-danger my-2 fw-bold">
+                      <img
+                        src="../util/icons-template/icons/trash.svg"
+                        alt="Delete Icon"
+                      />
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
     </div>
     <!-- CODE DATATABLES -->
