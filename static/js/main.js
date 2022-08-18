@@ -1,3 +1,6 @@
+const openModal = document.querySelector(".open-modal");
+const modal = document.querySelector(".modal");
+const closeModal = document.querySelector(".modal__close");
 const form = document.getElementById("formLogin");
 const email = document.getElementById("email");
 const password = document.getElementById("password");
@@ -26,4 +29,14 @@ window.addEventListener("keydown", function (event) {
     errorPassword.style.display = "none";
     btnLogin.disabled = false;
   }
+});
+
+openModal.addEventListener("click", (e) => {
+  e.preventDefault();
+  modal.classList.add("modal--show");
+});
+
+closeModal.addEventListener("click", (e) => {
+  e.preventDefault();
+  modal.classList.remove("modal--show");
 });
