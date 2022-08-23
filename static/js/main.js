@@ -13,7 +13,7 @@ window.addEventListener("keydown", function (event) {
     /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
 
   if (!regex.test(email.value)) {
-    error.innerHTML = "Email is not valid Try example@gmail.com";
+    error.innerHTML = "<img src='../util/icons-template/icons/icon-check.svg' width='100'/>";
     error.style.display = "block";
     btnLogin.disabled = true;
   } else {
