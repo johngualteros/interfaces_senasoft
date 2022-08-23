@@ -39,28 +39,32 @@
 
           <div class="mb-3">
             <label for="email" class="fw-bold fs-5 my-2">Email</label>
-            <input
+            <div class="relative">
+              <input
               type="email"
-              class="form-control"
+              class="form-control pe-5"
               id="email"
               placeholder="Enter your email address"
-            />
-            <span class="text-danger fw-semibold" id="error"
-              ></span
-            >
+              />
+              <p class="text-danger fw-semibold absolute " id="error"
+              >gtgr</p
+              >
+            </div> 
           </div>
           <div class="mb-3">
             <label for="password" class="fw-bold fs-5 my-2">Password</label>
-            <input
+            <div class="d-flex">
+              <input
               type="password"
               class="form-control"
               id="password"
               placeholder="Enter your password"
-            />
+              />
+            </div>
+            <p class="text-danger fw-semibold" id="errorPassword"
+            ></p
+            >
           </div>
-          <span class="text-danger fw-semibold" id="errorPassword"
-            ></span
-          >
 
           <button
             class="btn btn-blue-king w-100 fw-bold rounded shadow-sm my-5 fs-5"
