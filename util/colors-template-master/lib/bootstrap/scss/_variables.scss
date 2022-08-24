@@ -55,8 +55,11 @@ $grays: (
 // separador
 $blue:    #36ace7 !default;
 $blue-king: #0051DE !default;
-$blue-dark: #171923 !default;
-$gray-light:    #b8b8bd !default;
+$glass-light: rgba(255,255,255,0.5) !default;
+$glass-dark: rgba(0,0,0,0.5) !default;
+$blue-dark: #111a49 !default;
+$gray-light:    #b2b2b4 !default;
+$dark-gray:  #1d1f2b !default;
 $indigo:  #6610f2 !default;
 $purple:  #9678f1 !default; 
 $pink:    #fc58bd !default;
@@ -64,9 +67,9 @@ $red:     #EB4747 !default;
 $red-deep: #ff2d20  !default;   
 $orange:  #f5a53c !default;
 $orange-light: #FFEEBB !default;  
-$yellow:  #FFF89A !default; 
+$yellow:  #faf27e !default; 
 $green:   #3aec64 !default;
-$green-flour: #96fa12 !default; 
+$green-flour: #aafaae !default; 
 $teal:    #2acfb9 !default; 
 $cyan:    #8ce4d5 !default; 
 // scss-docs-end color-variables
@@ -75,7 +78,10 @@ $cyan:    #8ce4d5 !default;
 $colors: (
   "blue":       $blue,
   "blue-king":   $blue-king,
-  "dark-blue":  $blue-dark,
+  "glass-light": $glass-light,
+  "glass-dark": $glass-dark,
+  "dark-gray": $dark-gray,
+  "blue-dark":  $blue-dark,
   "green-flour": $green-flour,
   "indigo":     $indigo,
   "purple":     $purple,
@@ -90,6 +96,8 @@ $colors: (
   "gray":       $gray-600,
   "gray-dark":  $gray-800
 ) !default;
+
+
 // scss-docs-end colors-map
 
 // scss-docs-start theme-color-variables
@@ -97,6 +105,11 @@ $primary:       $blue !default;
 $secondary:     $gray-light !default;
 $pink:          $pink !default;
 $blue-king:     $blue-king !default;
+$glass-light: $glass-light !default;
+$glass-dark: $glass-dark !default;
+$dark-gray: $dark-gray !default;
+$blue-dark: $blue-dark!default;
+$gray-light: $gray-light !default;
 $orange:        $orange !default;
 $orange-light:  $orange-light !default;
 $green-flour:   $green-flour !default;
@@ -117,6 +130,10 @@ $dark:          $gray-900 !default;
 $theme-colors: (
   "primary":    $primary,
   "blue-king":  $blue-king,
+  "glass-light": $glass-light,
+  "glass-dark": $glass-dark,
+  "gray-light": $gray-light,
+  "dark-gray": $dark-gray,
   "green-flour": $green-flour,
   "secondary":  $secondary,
   "success":    $success,
@@ -129,10 +146,11 @@ $theme-colors: (
   "orange":    $orange,
   "orange-light":  $orange-light,
   "pink":       $pink,
-  "red-deep":$red-deep,
-  "indigo":$indigo,
-  "purple":$purple,
-  "teal":$teal
+  "red-deep": $red-deep,
+  "indigo": $indigo,
+  "purple": $purple,
+  "teal": $teal,
+  "dark": $dark
 
 ) !default;
 // scss-docs-end theme-colors-map

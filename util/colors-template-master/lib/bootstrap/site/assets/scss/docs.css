@@ -447,7 +447,7 @@
   text-decoration: none;
 }
 .bd-footer a:hover, .bd-footer a:focus {
-  color: #0d6efd;
+  color: #36ace7;
   text-decoration: underline;
 }
 
@@ -872,8 +872,8 @@
 }
 
 .swatch-blue {
-  color: #fff;
-  background-color: #0d6efd;
+  color: #000;
+  background-color: #36ace7;
 }
 .swatch-blue::after {
   position: absolute;
@@ -883,9 +883,123 @@
   font-size: 0.75rem;
   line-height: 1.35;
   white-space: pre;
-  content: "4.50" "\a" "4.50" "\a" "4.66";
-  background-color: #0d6efd;
+  content: "8.21" "\a" "2.55" "\a" "8.21";
+  background-color: #36ace7;
+  background-image: linear-gradient(to bottom, transparent 0.25rem, #000 0.25rem 0.75rem, transparent 0.75rem 1.25rem, #fff 1.25rem 1.75rem, transparent 1.75rem 2.25rem, #000 2.25rem 2.75rem, transparent 2.75rem);
+  background-repeat: no-repeat;
+  background-size: 0.5rem 100%;
+}
+
+.swatch-blue-king {
+  color: #fff;
+  background-color: #0051DE;
+}
+.swatch-blue-king::after {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding-left: 1rem;
+  font-size: 0.75rem;
+  line-height: 1.35;
+  white-space: pre;
+  content: "6.49" "\a" "6.49" "\a" "3.23";
+  background-color: #0051DE;
   background-image: linear-gradient(to bottom, transparent 0.25rem, #fff 0.25rem 0.75rem, transparent 0.75rem 1.25rem, #fff 1.25rem 1.75rem, transparent 1.75rem 2.25rem, #000 2.25rem 2.75rem, transparent 2.75rem);
+  background-repeat: no-repeat;
+  background-size: 0.5rem 100%;
+}
+
+.swatch-glass-light {
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.swatch-glass-light::after {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding-left: 1rem;
+  font-size: 0.75rem;
+  line-height: 1.35;
+  white-space: pre;
+  content: "21" "\a" "1" "\a" "21";
+  background-color: rgba(255, 255, 255, 0.5);
+  background-image: linear-gradient(to bottom, transparent 0.25rem, #000 0.25rem 0.75rem, transparent 0.75rem 1.25rem, #fff 1.25rem 1.75rem, transparent 1.75rem 2.25rem, #000 2.25rem 2.75rem, transparent 2.75rem);
+  background-repeat: no-repeat;
+  background-size: 0.5rem 100%;
+}
+
+.swatch-glass-dark {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.swatch-glass-dark::after {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding-left: 1rem;
+  font-size: 0.75rem;
+  line-height: 1.35;
+  white-space: pre;
+  content: "21" "\a" "21" "\a" "1";
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(to bottom, transparent 0.25rem, #fff 0.25rem 0.75rem, transparent 0.75rem 1.25rem, #fff 1.25rem 1.75rem, transparent 1.75rem 2.25rem, #000 2.25rem 2.75rem, transparent 2.75rem);
+  background-repeat: no-repeat;
+  background-size: 0.5rem 100%;
+}
+
+.swatch-dark-gray {
+  color: #fff;
+  background-color: #1d1f2b;
+}
+.swatch-dark-gray::after {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding-left: 1rem;
+  font-size: 0.75rem;
+  line-height: 1.35;
+  white-space: pre;
+  content: "16.3" "\a" "16.3" "\a" "1.28";
+  background-color: #1d1f2b;
+  background-image: linear-gradient(to bottom, transparent 0.25rem, #fff 0.25rem 0.75rem, transparent 0.75rem 1.25rem, #fff 1.25rem 1.75rem, transparent 1.75rem 2.25rem, #000 2.25rem 2.75rem, transparent 2.75rem);
+  background-repeat: no-repeat;
+  background-size: 0.5rem 100%;
+}
+
+.swatch-dark-blue {
+  color: #fff;
+  background-color: #0a0f29;
+}
+.swatch-dark-blue::after {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding-left: 1rem;
+  font-size: 0.75rem;
+  line-height: 1.35;
+  white-space: pre;
+  content: "18.8" "\a" "18.8" "\a" "1.11";
+  background-color: #0a0f29;
+  background-image: linear-gradient(to bottom, transparent 0.25rem, #fff 0.25rem 0.75rem, transparent 0.75rem 1.25rem, #fff 1.25rem 1.75rem, transparent 1.75rem 2.25rem, #000 2.25rem 2.75rem, transparent 2.75rem);
+  background-repeat: no-repeat;
+  background-size: 0.5rem 100%;
+}
+
+.swatch-green-flour {
+  color: #000;
+  background-color: #aafaae;
+}
+.swatch-green-flour::after {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding-left: 1rem;
+  font-size: 0.75rem;
+  line-height: 1.35;
+  white-space: pre;
+  content: "16.9" "\a" "1.23" "\a" "16.9";
+  background-color: #aafaae;
+  background-image: linear-gradient(to bottom, transparent 0.25rem, #000 0.25rem 0.75rem, transparent 0.75rem 1.25rem, #fff 1.25rem 1.75rem, transparent 1.75rem 2.25rem, #000 2.25rem 2.75rem, transparent 2.75rem);
   background-repeat: no-repeat;
   background-size: 0.5rem 100%;
 }
@@ -910,8 +1024,8 @@
 }
 
 .swatch-purple {
-  color: #fff;
-  background-color: #6f42c1;
+  color: #000;
+  background-color: #9678f1;
 }
 .swatch-purple::after {
   position: absolute;
@@ -921,18 +1035,18 @@
   font-size: 0.75rem;
   line-height: 1.35;
   white-space: pre;
-  content: "6.51" "\a" "6.51" "\a" "3.22";
-  background-color: #6f42c1;
-  background-image: linear-gradient(to bottom, transparent 0.25rem, #fff 0.25rem 0.75rem, transparent 0.75rem 1.25rem, #fff 1.25rem 1.75rem, transparent 1.75rem 2.25rem, #000 2.25rem 2.75rem, transparent 2.75rem);
+  content: "6.25" "\a" "3.35" "\a" "6.25";
+  background-color: #9678f1;
+  background-image: linear-gradient(to bottom, transparent 0.25rem, #000 0.25rem 0.75rem, transparent 0.75rem 1.25rem, #fff 1.25rem 1.75rem, transparent 1.75rem 2.25rem, #000 2.25rem 2.75rem, transparent 2.75rem);
   background-repeat: no-repeat;
   background-size: 0.5rem 100%;
 }
 
-.swatch-pink {
-  color: #fff;
-  background-color: #d63384;
+.swatch-gray-light {
+  color: #000;
+  background-color: #b2b2b4;
 }
-.swatch-pink::after {
+.swatch-gray-light::after {
   position: absolute;
   top: 1rem;
   right: 1rem;
@@ -940,35 +1054,16 @@
   font-size: 0.75rem;
   line-height: 1.35;
   white-space: pre;
-  content: "4.50" "\a" "4.50" "\a" "4.66";
-  background-color: #d63384;
-  background-image: linear-gradient(to bottom, transparent 0.25rem, #fff 0.25rem 0.75rem, transparent 0.75rem 1.25rem, #fff 1.25rem 1.75rem, transparent 1.75rem 2.25rem, #000 2.25rem 2.75rem, transparent 2.75rem);
-  background-repeat: no-repeat;
-  background-size: 0.5rem 100%;
-}
-
-.swatch-red {
-  color: #fff;
-  background-color: #dc3545;
-}
-.swatch-red::after {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  padding-left: 1rem;
-  font-size: 0.75rem;
-  line-height: 1.35;
-  white-space: pre;
-  content: "4.52" "\a" "4.52" "\a" "4.63";
-  background-color: #dc3545;
-  background-image: linear-gradient(to bottom, transparent 0.25rem, #fff 0.25rem 0.75rem, transparent 0.75rem 1.25rem, #fff 1.25rem 1.75rem, transparent 1.75rem 2.25rem, #000 2.25rem 2.75rem, transparent 2.75rem);
+  content: "9.92" "\a" "2.11" "\a" "9.92";
+  background-color: #b2b2b4;
+  background-image: linear-gradient(to bottom, transparent 0.25rem, #000 0.25rem 0.75rem, transparent 0.75rem 1.25rem, #fff 1.25rem 1.75rem, transparent 1.75rem 2.25rem, #000 2.25rem 2.75rem, transparent 2.75rem);
   background-repeat: no-repeat;
   background-size: 0.5rem 100%;
 }
 
 .swatch-orange {
   color: #000;
-  background-color: #fd7e14;
+  background-color: #f5a53c;
 }
 .swatch-orange::after {
   position: absolute;
@@ -978,8 +1073,27 @@
   font-size: 0.75rem;
   line-height: 1.35;
   white-space: pre;
-  content: "8.17" "\a" "2.57" "\a" "8.17";
-  background-color: #fd7e14;
+  content: "10.3" "\a" "2.03" "\a" "10.3";
+  background-color: #f5a53c;
+  background-image: linear-gradient(to bottom, transparent 0.25rem, #000 0.25rem 0.75rem, transparent 0.75rem 1.25rem, #fff 1.25rem 1.75rem, transparent 1.75rem 2.25rem, #000 2.25rem 2.75rem, transparent 2.75rem);
+  background-repeat: no-repeat;
+  background-size: 0.5rem 100%;
+}
+
+.swatch-orange-light {
+  color: #000;
+  background-color: #FFEEBB;
+}
+.swatch-orange-light::after {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding-left: 1rem;
+  font-size: 0.75rem;
+  line-height: 1.35;
+  white-space: pre;
+  content: "18.1" "\a" "1.15" "\a" "18.1";
+  background-color: #FFEEBB;
   background-image: linear-gradient(to bottom, transparent 0.25rem, #000 0.25rem 0.75rem, transparent 0.75rem 1.25rem, #fff 1.25rem 1.75rem, transparent 1.75rem 2.25rem, #000 2.25rem 2.75rem, transparent 2.75rem);
   background-repeat: no-repeat;
   background-size: 0.5rem 100%;
@@ -987,7 +1101,7 @@
 
 .swatch-yellow {
   color: #000;
-  background-color: #ffc107;
+  background-color: #faf27e;
 }
 .swatch-yellow::after {
   position: absolute;
@@ -997,16 +1111,16 @@
   font-size: 0.75rem;
   line-height: 1.35;
   white-space: pre;
-  content: "12.8" "\a" "1.63" "\a" "12.8";
-  background-color: #ffc107;
+  content: "18.0" "\a" "1.16" "\a" "18.0";
+  background-color: #faf27e;
   background-image: linear-gradient(to bottom, transparent 0.25rem, #000 0.25rem 0.75rem, transparent 0.75rem 1.25rem, #fff 1.25rem 1.75rem, transparent 1.75rem 2.25rem, #000 2.25rem 2.75rem, transparent 2.75rem);
   background-repeat: no-repeat;
   background-size: 0.5rem 100%;
 }
 
 .swatch-green {
-  color: #fff;
-  background-color: #198754;
+  color: #000;
+  background-color: #3aec64;
 }
 .swatch-green::after {
   position: absolute;
@@ -1016,16 +1130,16 @@
   font-size: 0.75rem;
   line-height: 1.35;
   white-space: pre;
-  content: "4.53" "\a" "4.53" "\a" "4.63";
-  background-color: #198754;
-  background-image: linear-gradient(to bottom, transparent 0.25rem, #fff 0.25rem 0.75rem, transparent 0.75rem 1.25rem, #fff 1.25rem 1.75rem, transparent 1.75rem 2.25rem, #000 2.25rem 2.75rem, transparent 2.75rem);
+  content: "13.3" "\a" "1.57" "\a" "13.3";
+  background-color: #3aec64;
+  background-image: linear-gradient(to bottom, transparent 0.25rem, #000 0.25rem 0.75rem, transparent 0.75rem 1.25rem, #fff 1.25rem 1.75rem, transparent 1.75rem 2.25rem, #000 2.25rem 2.75rem, transparent 2.75rem);
   background-repeat: no-repeat;
   background-size: 0.5rem 100%;
 }
 
 .swatch-teal {
   color: #000;
-  background-color: #20c997;
+  background-color: #2acfb9;
 }
 .swatch-teal::after {
   position: absolute;
@@ -1035,8 +1149,8 @@
   font-size: 0.75rem;
   line-height: 1.35;
   white-space: pre;
-  content: "9.86" "\a" "2.12" "\a" "9.86";
-  background-color: #20c997;
+  content: "10.7" "\a" "1.95" "\a" "10.7";
+  background-color: #2acfb9;
   background-image: linear-gradient(to bottom, transparent 0.25rem, #000 0.25rem 0.75rem, transparent 0.75rem 1.25rem, #fff 1.25rem 1.75rem, transparent 1.75rem 2.25rem, #000 2.25rem 2.75rem, transparent 2.75rem);
   background-repeat: no-repeat;
   background-size: 0.5rem 100%;
@@ -1044,7 +1158,7 @@
 
 .swatch-cyan {
   color: #000;
-  background-color: #0dcaf0;
+  background-color: #8ce4d5;
 }
 .swatch-cyan::after {
   position: absolute;
@@ -1054,8 +1168,8 @@
   font-size: 0.75rem;
   line-height: 1.35;
   white-space: pre;
-  content: "10.7" "\a" "1.95" "\a" "10.7";
-  background-color: #0dcaf0;
+  content: "14.1" "\a" "1.48" "\a" "14.1";
+  background-color: #8ce4d5;
   background-image: linear-gradient(to bottom, transparent 0.25rem, #000 0.25rem 0.75rem, transparent 0.75rem 1.25rem, #fff 1.25rem 1.75rem, transparent 1.75rem 2.25rem, #000 2.25rem 2.75rem, transparent 2.75rem);
   background-repeat: no-repeat;
   background-size: 0.5rem 100%;
@@ -1139,47 +1253,47 @@
 
 .bd-blue-100 {
   color: #000;
-  background-color: #cfe2ff;
+  background-color: #d7eefa;
 }
 
 .bd-blue-200 {
   color: #000;
-  background-color: #9ec5fe;
+  background-color: #afdef5;
 }
 
 .bd-blue-300 {
   color: #000;
-  background-color: #6ea8fe;
+  background-color: #86cdf1;
 }
 
 .bd-blue-400 {
   color: #000;
-  background-color: #3d8bfd;
+  background-color: #5ebdec;
 }
 
 .bd-blue-500 {
-  color: #fff;
-  background-color: #0d6efd;
+  color: #000;
+  background-color: #36ace7;
 }
 
 .bd-blue-600 {
-  color: #fff;
-  background-color: #0a58ca;
+  color: #000;
+  background-color: #2b8ab9;
 }
 
 .bd-blue-700 {
   color: #fff;
-  background-color: #084298;
+  background-color: #20678b;
 }
 
 .bd-blue-800 {
   color: #fff;
-  background-color: #052c65;
+  background-color: #16455c;
 }
 
 .bd-blue-900 {
   color: #fff;
-  background-color: #031633;
+  background-color: #0b222e;
 }
 
 .bd-indigo-100 {
@@ -1229,362 +1343,362 @@
 
 .bd-purple-100 {
   color: #000;
-  background-color: #e2d9f3;
+  background-color: #eae4fc;
 }
 
 .bd-purple-200 {
   color: #000;
-  background-color: #c5b3e6;
+  background-color: #d5c9f9;
 }
 
 .bd-purple-300 {
   color: #000;
-  background-color: #a98eda;
+  background-color: #c0aef7;
 }
 
 .bd-purple-400 {
   color: #000;
-  background-color: #8c68cd;
+  background-color: #ab93f4;
 }
 
 .bd-purple-500 {
-  color: #fff;
-  background-color: #6f42c1;
+  color: #000;
+  background-color: #9678f1;
 }
 
 .bd-purple-600 {
   color: #fff;
-  background-color: #59359a;
+  background-color: #7860c1;
 }
 
 .bd-purple-700 {
   color: #fff;
-  background-color: #432874;
+  background-color: #5a4891;
 }
 
 .bd-purple-800 {
   color: #fff;
-  background-color: #2c1a4d;
+  background-color: #3c3060;
 }
 
 .bd-purple-900 {
   color: #fff;
-  background-color: #160d27;
+  background-color: #1e1830;
 }
 
 .bd-pink-100 {
   color: #000;
-  background-color: #f7d6e6;
+  background-color: #fedef2;
 }
 
 .bd-pink-200 {
   color: #000;
-  background-color: #efadce;
+  background-color: #febce5;
 }
 
 .bd-pink-300 {
   color: #000;
-  background-color: #e685b5;
+  background-color: #fd9bd7;
 }
 
 .bd-pink-400 {
   color: #000;
-  background-color: #de5c9d;
+  background-color: #fd79ca;
 }
 
 .bd-pink-500 {
-  color: #fff;
-  background-color: #d63384;
+  color: #000;
+  background-color: #fc58bd;
 }
 
 .bd-pink-600 {
-  color: #fff;
-  background-color: #ab296a;
+  color: #000;
+  background-color: #ca4697;
 }
 
 .bd-pink-700 {
   color: #fff;
-  background-color: #801f4f;
+  background-color: #973571;
 }
 
 .bd-pink-800 {
   color: #fff;
-  background-color: #561435;
+  background-color: #65234c;
 }
 
 .bd-pink-900 {
   color: #fff;
-  background-color: #2b0a1a;
+  background-color: #321226;
 }
 
 .bd-red-100 {
   color: #000;
-  background-color: #f8d7da;
+  background-color: #fbdada;
 }
 
 .bd-red-200 {
   color: #000;
-  background-color: #f1aeb5;
+  background-color: #f7b5b5;
 }
 
 .bd-red-300 {
   color: #000;
-  background-color: #ea868f;
+  background-color: #f39191;
 }
 
 .bd-red-400 {
   color: #000;
-  background-color: #e35d6a;
+  background-color: #ef6c6c;
 }
 
 .bd-red-500 {
-  color: #fff;
-  background-color: #dc3545;
+  color: #000;
+  background-color: #EB4747;
 }
 
 .bd-red-600 {
   color: #fff;
-  background-color: #b02a37;
+  background-color: #bc3939;
 }
 
 .bd-red-700 {
   color: #fff;
-  background-color: #842029;
+  background-color: #8d2b2b;
 }
 
 .bd-red-800 {
   color: #fff;
-  background-color: #58151c;
+  background-color: #5e1c1c;
 }
 
 .bd-red-900 {
   color: #fff;
-  background-color: #2c0b0e;
+  background-color: #2f0e0e;
 }
 
 .bd-orange-100 {
   color: #000;
-  background-color: #ffe5d0;
+  background-color: #fdedd8;
 }
 
 .bd-orange-200 {
   color: #000;
-  background-color: #fecba1;
+  background-color: #fbdbb1;
 }
 
 .bd-orange-300 {
   color: #000;
-  background-color: #feb272;
+  background-color: #f9c98a;
 }
 
 .bd-orange-400 {
   color: #000;
-  background-color: #fd9843;
+  background-color: #f7b763;
 }
 
 .bd-orange-500 {
   color: #000;
-  background-color: #fd7e14;
+  background-color: #f5a53c;
 }
 
 .bd-orange-600 {
   color: #000;
-  background-color: #ca6510;
+  background-color: #c48430;
 }
 
 .bd-orange-700 {
   color: #fff;
-  background-color: #984c0c;
+  background-color: #936324;
 }
 
 .bd-orange-800 {
   color: #fff;
-  background-color: #653208;
+  background-color: #624218;
 }
 
 .bd-orange-900 {
   color: #fff;
-  background-color: #331904;
+  background-color: #31210c;
 }
 
 .bd-yellow-100 {
   color: #000;
-  background-color: #fff3cd;
+  background-color: #fefce5;
 }
 
 .bd-yellow-200 {
   color: #000;
-  background-color: #ffe69c;
+  background-color: #fdfacb;
 }
 
 .bd-yellow-300 {
   color: #000;
-  background-color: #ffda6a;
+  background-color: #fcf7b2;
 }
 
 .bd-yellow-400 {
   color: #000;
-  background-color: #ffcd39;
+  background-color: #fbf598;
 }
 
 .bd-yellow-500 {
   color: #000;
-  background-color: #ffc107;
+  background-color: #faf27e;
 }
 
 .bd-yellow-600 {
   color: #000;
-  background-color: #cc9a06;
+  background-color: #c8c265;
 }
 
 .bd-yellow-700 {
   color: #000;
-  background-color: #997404;
+  background-color: #96914c;
 }
 
 .bd-yellow-800 {
   color: #fff;
-  background-color: #664d03;
+  background-color: #646132;
 }
 
 .bd-yellow-900 {
   color: #fff;
-  background-color: #332701;
+  background-color: #323019;
 }
 
 .bd-green-100 {
   color: #000;
-  background-color: #d1e7dd;
+  background-color: #d8fbe0;
 }
 
 .bd-green-200 {
   color: #000;
-  background-color: #a3cfbb;
+  background-color: #b0f7c1;
 }
 
 .bd-green-300 {
   color: #000;
-  background-color: #75b798;
+  background-color: #89f4a2;
 }
 
 .bd-green-400 {
   color: #000;
-  background-color: #479f76;
+  background-color: #61f083;
 }
 
 .bd-green-500 {
-  color: #fff;
-  background-color: #198754;
+  color: #000;
+  background-color: #3aec64;
 }
 
 .bd-green-600 {
-  color: #fff;
-  background-color: #146c43;
+  color: #000;
+  background-color: #2ebd50;
 }
 
 .bd-green-700 {
-  color: #fff;
-  background-color: #0f5132;
+  color: #000;
+  background-color: #238e3c;
 }
 
 .bd-green-800 {
   color: #fff;
-  background-color: #0a3622;
+  background-color: #175e28;
 }
 
 .bd-green-900 {
   color: #fff;
-  background-color: #051b11;
+  background-color: #0c2f14;
 }
 
 .bd-teal-100 {
   color: #000;
-  background-color: #d2f4ea;
+  background-color: #d4f5f1;
 }
 
 .bd-teal-200 {
   color: #000;
-  background-color: #a6e9d5;
+  background-color: #aaece3;
 }
 
 .bd-teal-300 {
   color: #000;
-  background-color: #79dfc1;
+  background-color: #7fe2d5;
 }
 
 .bd-teal-400 {
   color: #000;
-  background-color: #4dd4ac;
+  background-color: #55d9c7;
 }
 
 .bd-teal-500 {
   color: #000;
-  background-color: #20c997;
+  background-color: #2acfb9;
 }
 
 .bd-teal-600 {
   color: #000;
-  background-color: #1aa179;
+  background-color: #22a694;
 }
 
 .bd-teal-700 {
   color: #fff;
-  background-color: #13795b;
+  background-color: #197c6f;
 }
 
 .bd-teal-800 {
   color: #fff;
-  background-color: #0d503c;
+  background-color: #11534a;
 }
 
 .bd-teal-900 {
   color: #fff;
-  background-color: #06281e;
+  background-color: #082925;
 }
 
 .bd-cyan-100 {
   color: #000;
-  background-color: #cff4fc;
+  background-color: #e8faf7;
 }
 
 .bd-cyan-200 {
   color: #000;
-  background-color: #9eeaf9;
+  background-color: #d1f4ee;
 }
 
 .bd-cyan-300 {
   color: #000;
-  background-color: #6edff6;
+  background-color: #baefe6;
 }
 
 .bd-cyan-400 {
   color: #000;
-  background-color: #3dd5f3;
+  background-color: #a3e9dd;
 }
 
 .bd-cyan-500 {
   color: #000;
-  background-color: #0dcaf0;
+  background-color: #8ce4d5;
 }
 
 .bd-cyan-600 {
   color: #000;
-  background-color: #0aa2c0;
+  background-color: #70b6aa;
 }
 
 .bd-cyan-700 {
-  color: #fff;
-  background-color: #087990;
+  color: #000;
+  background-color: #548980;
 }
 
 .bd-cyan-800 {
   color: #fff;
-  background-color: #055160;
+  background-color: #385b55;
 }
 
 .bd-cyan-900 {
   color: #fff;
-  background-color: #032830;
+  background-color: #1c2e2b;
 }
 
 .bd-gray-100 {
@@ -1664,14 +1778,14 @@
   display: block;
   padding: 0.25rem 0.5rem;
   font-size: 0.65em;
-  color: #0d6efd;
+  color: #36ace7;
   background-color: #fff;
   border: 1px solid;
   border-radius: 0.25rem;
 }
 .btn-clipboard:hover, .btn-clipboard:focus {
   color: #fff;
-  background-color: #0d6efd;
+  background-color: #36ace7;
 }
 
 .bd-placeholder-img {
@@ -2042,7 +2156,7 @@
 
 .anchorjs-link {
   font-weight: 400;
-  color: rgba(13, 110, 253, 0.5);
+  color: rgba(54, 172, 231, 0.5);
   transition: color 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -2051,7 +2165,7 @@
   }
 }
 .anchorjs-link:focus, .anchorjs-link:hover {
-  color: #0d6efd;
+  color: #36ace7;
   text-decoration: none;
 }
 
@@ -2125,8 +2239,8 @@
 }
 
 .algolia-docsearch-suggestion--highlight {
-  color: #6f42c1;
-  background-color: rgba(111, 66, 193, 0.1);
+  color: #9678f1;
+  background-color: rgba(150, 120, 241, 0.1);
 }
 
 .algolia-docsearch-footer {
