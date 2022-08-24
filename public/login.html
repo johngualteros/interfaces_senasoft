@@ -15,7 +15,7 @@
       href="../util/colors-template-master/css/style.css"
     />
     <link rel="stylesheet" href="../util/aos-master/dist/aos.css" />
-    </head>
+  </head>
   <body>
     <section class="vh-100 vw-100 text-dark row">
       <div class="col-md-5 d-none d-md-block">
@@ -38,29 +38,36 @@
           <h1 class="display-4 text-center fw-bold text-blue-king">Sign In</h1>
 
           <div class="mb-3">
-            <label for="email" class="fw-bold fs-5 my-2">Email</label>
-            <input
-              type="email"
-              class="form-control"
-              id="email"
-              placeholder="Enter your email address"
-            />
-            <span class="text-danger fw-semibold" id="error"
-              ></span
-            >
+            <label for="email" class="fw-bold fs-4 my-2">Email</label>
+            <div class="position-relative">
+              <input
+                type="email"
+                class="form-control fs-5"
+                id="email"
+                autofocus
+                placeholder="Enter your email address"
+              />
+              <span
+                class="text-danger fw-semibold position-absolute top-0 h-100 end-0 bottom-0"
+                id="error"
+              ></span>
+            </div>
           </div>
           <div class="mb-3">
-            <label for="password" class="fw-bold fs-5 my-2">Password</label>
-            <input
-              type="password"
-              class="form-control"
-              id="password"
-              placeholder="Enter your password"
-            />
+            <label for="password" class="fw-bold fs-4 my-2">Password</label>
+            <div class="position-relative">
+              <input
+                type="password"
+                class="form-control fs-5"
+                id="password"
+                placeholder="Enter your password"
+              />
+              <span
+              class="text-danger fw-semibold position-absolute top-0 h-100 end-0 bottom-0"
+              id="errorPassword"
+              ></span>
+            </div>
           </div>
-          <span class="text-danger fw-semibold" id="errorPassword"
-            ></span
-          >
 
           <button
             class="btn btn-blue-king w-100 fw-bold rounded shadow-sm my-5 fs-5"
