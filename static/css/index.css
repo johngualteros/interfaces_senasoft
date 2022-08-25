@@ -1,7 +1,7 @@
 :root {
   --dark-blue: #111a49;
   --dark-gray: #1d1f2b;
-  --light-gray: #f4f4f4;
+  --light-gray: #e7e6e6;
   --light: #fff;
 }
 
@@ -20,13 +20,36 @@ body {
   font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
     Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
+  background-color: var(--light);
+ color: var(--dark-gray);
+ transition: all 1s linear;
 
+}
+body .navbar{
+  background-color: var(--light);
+ transition: all 1s linear;
+
+}
+/* Darkmode*/
 .darkmode {
-  background-color: var(--light-gray);
+  background-color: var(--dark-gray) !important;
+  color: var(--light);
   overflow-x: hidden;
-}
+ transition: all 1s linear;
 
+}
+.darkmode .navbar{
+  background-color: var(--dark-gray);
+ transition: all 1s linear;
+}
+.darkmode .container_login{
+  background-color: var(--dark-gray);
+  transition: all 1s linear;
+}
+body .container_login{
+  background-color: var(--light);
+ transition: all 1s linear;
+}
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -92,7 +115,7 @@ body {
   height: 190px;
   background: #fff;
   border-radius: 20px;
-  box-shadow: 0 35px 80px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 5px rgba(200, 200, 200, 0.5);
   transition: 0.5s;
 }
 

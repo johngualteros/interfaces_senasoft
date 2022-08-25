@@ -6819,6 +6819,7 @@ fieldset:disabled .btn {
   display: flex;
   opacity: 0;
   pointer-events: none;
+  z-index: 1030;
   transition: opacity 0.6s 0.9s;
   --transform: translateY(-100vh);
   --transition: transform 0.8s;
@@ -6834,11 +6835,11 @@ fieldset:disabled .btn {
 
 .modal-content {
   margin: auto;
-  width: 40%;
+  width: 35%;
   height: 85%;
   max-height: 90%;
   background-color: #fff;
-  border-radius: 6px;
+  border-radius: 20px;
   transform: var(--transform);
   transition: var(--transition);
 }
@@ -6880,19 +6881,6 @@ fieldset:disabled .btn {
   display: flex;
   align-items: center;
   min-height: calc(100% - 1rem);
-}
-
-.modal-content {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  pointer-events: auto;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
-  outline: 0;
 }
 
 .modal-backdrop {
