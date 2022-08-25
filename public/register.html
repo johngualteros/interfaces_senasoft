@@ -12,34 +12,35 @@
     <!-- Link CSS -->
     <link rel="stylesheet" href="../util/colors-template-master/css/style.css" />
   </head>
-  <body class="body-register ">
-    <div class="container w-75 bg-primary mt-5 rounded shadow">
-      <div class="row">
+  <body class="body-register  vh-100 vw-100 d-flex justify-content-center align-items-center">
+    <!-- -->
+    <div class="container h-75  shadow-lg">
+      <div class="row h-100">
         <div class="col d-none d-md-block bg col-md-5 col-lg-5 col-xl-6 rounded">
-
+          
         </div>
-        <div class="col bg-white p-4 redounded-end">
-          <h2 class="fw-bold text-center py-3">Register</h2>
-          <form  action="" method="post">
-                    <div class="mb-4">
-                        <label for="name" class="form-label">Name:</label>
-                        <input type="text" class="form-control" required id="name" placeholder="Name ">
+        <div class="col bg-white d-flex align-items-center justify-content-center flex-column redounded-end">
+          <h2 class="fw-bold text-blue-king display-5 text-center py-3">Register</h2>
+          <form class="w-75"  action="login.html" method="post">
+                    <div class="mb-4 ">
+                        <label for="name" class="form-label fs-5 fw-bold">Name:</label>
+                        <input type="text" class="form-control" required id="name" placeholder="Enter your Name ">
                       </div>
-                      <div class="mb-4">
-                        <label for="lastname" class="form-label">Lastname:</label>
-                        <input type="text" class="form-control" required id="lastname" placeholder="Lastname">
+                      <div class="mb-4 ">
+                        <label for="lastname" class="form-label fs-5 fw-bold">Lastname:</label>
+                        <input type="text" class="form-control" required id="lastname" placeholder="Enter your Lastname">
                       </div>
-                      <div class="mb-4">
-                        <label for="numberdocument" class="form-label">Number document:</label>
-                        <input type="number" class="form-control" required id="numberdocument" placeholder="1234567890">
+                      <div class="mb-4 ">
+                        <label for="numberdocument" class="form-label fs-5 fw-bold">Number document:</label>
+                        <input type="number" class="form-control" required id="numberdocument" placeholder="Enter your document">
                       </div>
-                    <div class="mb-4">
-                        <label for="email" class="form-label">Email:</label>
-                        <input type="email" class="form-control" required id="email" placeholder="name@example.com">
+                    <div class="mb-4 ">
+                        <label for="email" class="form-label fs-5 fw-bold">Email:</label>
+                        <input type="email" class="form-control" required id="email" placeholder="Enter your email">
                       </div>
                       
-                      <div class="d-grid">
-                        <button class="btn btn-primary">Register</button>
+                      <div class="d-grid ">
+                        <button class="btn btn-teal py-2 fs-5 fw-bold ">Register</button>
                       </div>
                 </form>
         </div>
