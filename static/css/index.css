@@ -205,11 +205,12 @@ body {
 }
 /* Styles Dashboard */
 .container_dashboard {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-color: transparent;
 }
 .header {
+  width: 100vw;
   height: 8vh;
 }
 .dark-bg {
@@ -262,8 +263,16 @@ body {
   max-width: 500px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  .estadistic{
+    grid-column: 1/3;
+  }
+}
+@media (max-width: 703px) {
   .container_sections_dashboard {
-    grid-template-columns: 10% auto;
+    grid-template-columns: 10% 80%;
+  }
+  .section_content_dashboard{
+    width: 80%;
   }
 }

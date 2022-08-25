@@ -1,12 +1,10 @@
-const openModal = document.querySelector('.open-modal');
-const modal = document.querySelector('.modal');
-const closeModal = document.querySelector('.modal__close');
 const form = document.getElementById('formLogin');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
 const error = document.getElementById('error');
 const btnLogin = document.getElementById('btnLogin');
 const errorPassword = document.getElementById('errorPassword');
+
 btnLogin.disabled = true;
 
 window.addEventListener('keydown', function (event) {
