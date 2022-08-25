@@ -42,14 +42,13 @@ body {
   color: #0051de !important;
 }
 
-.body-register {
-  background: #0051de;
-  background: linear-gradient(to right, #bad3ff, #3577e9);
-}
-
 .bg {
-  background-image: url('../img/image_register.svg');
-  background-position: center center;
+  /* width: 700px; */
+  background: #2acfb969 url('../img/bankImage/empresarial/image_edifice.jpg');
+  background-size: cover;
+  /* background-position: cover; */
+  /* background-position: center center; */
+  /* background-position: center center; */
 }
 
 #services,
