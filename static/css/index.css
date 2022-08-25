@@ -201,7 +201,8 @@ body {
 }
 
 .card .content-info .card-details .card-actions button:nth-child(2) {
-  background: #eb4747;
+  background: #f05d5d;
+  ;
 }
 /* Styles Dashboard */
 .container_dashboard {
@@ -209,6 +210,7 @@ body {
   height: 100vh;
   background-color: transparent;
 }
+
 .header {
   width: 100vw;
   height: 8vh;
