@@ -1,95 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
-    <link
-      rel="icon"
-      href="https://www.creativefabrica.com/wp-content/uploads/2021/03/20/Modern-S-Letter-logo-Design-Graphics-9785245-1.jpg"
-    />
-    <!-- Bootstrap -->
-    <link
-      rel="stylesheet"
-      href="../util/colors-template-master/css/style.css"
-    />
-    <link rel="stylesheet" href="../util/aos-master/dist/aos.css" />
-  </head>
-  <body>
-    <section class="vh-100 vw-100 text-dark row">
-      <div class="col-md-5 d-none d-md-block">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="icon"
+    href="https://www.creativefabrica.com/wp-content/uploads/2021/03/20/Modern-S-Letter-logo-Design-Graphics-9785245-1.jpg" />
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="../util/colors-template-master/css/style.css" />
+  <link rel="stylesheet" href="../util/aos-master/dist/aos.css" />
+</head>
+
+<body>
+  <section class="vh-100 vw-100 text-dark row">
+    <div class="col-md-5 d-none d-md-block">
+      <img
+        src="https://static.vecteezy.com/system/resources/previews/001/987/747/original/abstract-white-and-blue-gradient-triangles-overlapping-background-free-vector.jpg"
+        class="w-100 h-100" />
+    </div>
+    <div class="col-md-7 d-flex justify-content-center align-items-center flex-column">
+      <div class="w-100 text-end">
         <img
-          src="https://static.vecteezy.com/system/resources/previews/001/987/747/original/abstract-white-and-blue-gradient-triangles-overlapping-background-free-vector.jpg"
-          class="w-100 h-100"
-        />
+          src="https://www.creativefabrica.com/wp-content/uploads/2021/03/20/Modern-S-Letter-logo-Design-Graphics-9785245-1.jpg"
+          width="100" alt="Logo" />
       </div>
-      <div
-        class="col-md-7 d-flex justify-content-center align-items-center flex-column"
-      >
-        <div class="w-100 text-end">
-          <img
-            src="https://www.creativefabrica.com/wp-content/uploads/2021/03/20/Modern-S-Letter-logo-Design-Graphics-9785245-1.jpg"
-            width="100"
-            alt="Logo"
-          />
+      <form class="w-75" id="formLogin">
+        <h1 class="display-4 text-center fw-bold text-blue-king">Sign In</h1>
+
+        <div class="mb-3">
+          <label for="email" class="fw-bold fs-4 my-2">Email</label>
+          <div class="position-relative">
+            <input type="email" class="form-control fs-5" id="email" autofocus placeholder="Enter your email address" />
+            <span class="text-danger fw-semibold position-absolute top-0 h-100 end-0 bottom-0" id="error"></span>
+          </div>
         </div>
-        <form class="w-75" id="formLogin">
-          <h1 class="display-4 text-center fw-bold text-blue-king">Sign In</h1>
-
-          <div class="mb-3">
-            <label for="email" class="fw-bold fs-4 my-2">Email</label>
-            <div class="position-relative">
-              <input
-                type="email"
-                class="form-control fs-5"
-                id="email"
-                autofocus
-                placeholder="Enter your email address"
-              />
-              <span
-                class="text-danger fw-semibold position-absolute top-0 h-100 end-0 bottom-0"
-                id="error"
-              ></span>
-            </div>
+        <div class="mb-3">
+          <label for="password" class="fw-bold fs-4 my-2">Password</label>
+          <div class="position-relative">
+            <input type="password" class="form-control fs-5" id="password" placeholder="Enter your password" />
+            <span class="text-danger fw-semibold position-absolute top-0 h-100 end-0 bottom-0"
+              id="errorPassword"></span>
           </div>
-          <div class="mb-3">
-            <label for="password" class="fw-bold fs-4 my-2">Password</label>
-            <div class="position-relative">
-              <input
-                type="password"
-                class="form-control fs-5"
-                id="password"
-                placeholder="Enter your password"
-              />
-              <span
-              class="text-danger fw-semibold position-absolute top-0 h-100 end-0 bottom-0"
-              id="errorPassword"
-              ></span>
-            </div>
-          </div>
+        </div>
 
-          <button
-            class="btn btn-blue-king w-100 fw-bold rounded shadow-sm my-5 fs-5"
-            id="btnLogin"
-          >
-            Log in
-          </button>
-        </form>
-        <p class="text-center mt-5">
-          If you wanna go back Please
-          <span><a href="#" class="text-blue-king fw-bold">Click Here</a></span
-          ><br />
-          You not are register?
-          <span><a href="#" class="text-blue-king fw-bold">Click Here</a></span>
-        </p>
-      </div>
-    </section>
-    <script src="../static/js/main.js"></script>
-    <script src="../util/colors-template-master/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../util/aos-master/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+        <button class="btn btn-blue-king w-100 fw-bold rounded shadow-sm my-5 fs-5" id="btnLogin">
+          Log in
+        </button>
+      </form>
+      <p class="text-center mt-5">
+        If you wanna go back Please
+        <span><a href="./index.html" class="text-blue-king fw-bold">Click Here</a></span><br />
+        You not are register?
+        <span><a href="./register.html" class="text-blue-king fw-bold">Click Here</a></span>
+      </p>
+    </div>
+  </section>
+  <script src="../static/js/main.js"></script>
+  <script src="../util/colors-template-master/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="../util/aos-master/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
 </html>
