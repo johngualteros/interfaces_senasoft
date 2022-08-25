@@ -11,35 +11,36 @@
   <!-- Bootstrap -->
   <link rel="stylesheet" href="../util/colors-template-master/css/style.css" />
   <link rel="stylesheet" href="../util/aos-master/dist/aos.css" />
+  <link rel="stylesheet" href="../static/css/index.css">
 </head>
 
 <body>
-  <section class="vh-100 vw-100 text-dark row">
+  <section class="vh-100 vw-100 row container_login">
     <div class="col-md-5 d-none d-md-block">
       <img
         src="https://static.vecteezy.com/system/resources/previews/001/987/747/original/abstract-white-and-blue-gradient-triangles-overlapping-background-free-vector.jpg"
         class="w-100 h-100" />
     </div>
     <div class="col-md-7 d-flex justify-content-center align-items-center flex-column">
-      <div class="w-100 text-end">
-        <img
-          src="https://www.creativefabrica.com/wp-content/uploads/2021/03/20/Modern-S-Letter-logo-Design-Graphics-9785245-1.jpg"
-          width="100" alt="Logo" />
-      </div>
       <form class="w-75" id="formLogin">
+        <div class="w-100 text-end">
+          <button class="bg-transparent fw-bold border-0" id="icon_mode">
+            <img src="../util/icons-template/icons/moon.svg" alt="" id="img_icon_mode" width="30">
+          </button>
+        </div>
         <h1 class="display-4 text-center fw-bold text-blue-king">Sign In</h1>
 
         <div class="mb-3">
           <label for="email" class="fw-bold fs-4 my-2">Email</label>
           <div class="position-relative">
-            <input type="email" class="form-control fs-5" id="email" autofocus placeholder="Enter your email address" />
+            <input type="email" class="form-control fs-5 bg-transparent text-gray-light" id="email" autofocus placeholder="Enter your email address" />
             <span class="text-danger fw-semibold position-absolute top-0 h-100 end-0 bottom-0" id="error"></span>
           </div>
         </div>
         <div class="mb-3">
           <label for="password" class="fw-bold fs-4 my-2">Password</label>
           <div class="position-relative">
-            <input type="password" class="form-control fs-5" id="password" placeholder="Enter your password" />
+            <input type="password" class="form-control fs-5 bg-transparent text-gray-light" id="password" placeholder="Enter your password" />
             <span class="text-danger fw-semibold position-absolute top-0 h-100 end-0 bottom-0"
               id="errorPassword"></span>
           </div>
@@ -57,6 +58,7 @@
       </p>
     </div>
   </section>
+  <script src="../static/js/darkmode.js"></script>
   <script src="../static/js/main.js"></script>
   <script src="../util/colors-template-master/lib/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="../util/aos-master/dist/aos.js"></script>
