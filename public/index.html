@@ -1,225 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <!-- Icon -->
+    <link
+      rel="icon"
+      href="https://www.creativefabrica.com/wp-content/uploads/2021/03/20/Modern-S-Letter-logo-Design-Graphics-9785245-1.jpg"
+    />
+    <!-- Link Aos -->
+    <link rel="stylesheet" href="../util/aos-master/dist/aos.css" />
+    <!-- Link Bootstap -->
+    <link
+      rel="stylesheet"
+      href="../util/colors-template-master/css/style.css"
+    />
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="../static/css/index.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home Page</title>
-  <!-- Icon -->
-  <link rel="icon"
-    href="https://www.creativefabrica.com/wp-content/uploads/2021/03/20/Modern-S-Letter-logo-Design-Graphics-9785245-1.jpg" />
-  <!-- Link Aos -->
-  <link rel="stylesheet" href="../util/aos-master/dist/aos.css" />
-  <!-- Link Bootstap -->
-  <link rel="stylesheet" href="../util/colors-template-master/css/style.css" />
-  <!-- Link CSS -->
-  <link rel="stylesheet" href="../static/css/index.css" />
-
-</head>
-
-<body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-md fixed-top pe-5">
-    <div class="container-fluid">
-      <a class="navbar-brand fs-2 fw-bold text-blue-king" href="#home">Flex Start</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto">
-          <button class="nav-link text-blue-dark fw-bold bg-transparent border-0" id="icon_mode">
-            <img src="../util/icons-template/icons/moon.svg" alt="" id="img_icon_mode">
-          </button>
-          <a class="nav-link fw-bold text-gray-light" id="menu-link" id="link_navbar" href="#home">Home</a>
-          <a class="nav-link fw-bold text-gray-light" id="menu-link" id="link_navbar" href="#about">About</a>
-          <a class="nav-link fw-bold text-gray-light" id="menu-link" id="link_navbar" href="#services">Services</a>
-          <a class="nav-link fw-bold text-gray-light" id="menu-link" id="link_navbar" href="#contact">Contact</a>
-          <a class="nav-link btn btn-blue-king text-light fw-bold px-5 mx-2 me-5" href="./login.html">Sign In</a>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md fixed-top pe-5">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-2 fw-bold text-blue-king" href="#home"
+          >Flex Start</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <button
+              class="nav-link text-blue-dark fw-bold bg-transparent border-0"
+              id="icon_mode"
+            >
+              <img
+                src="../util/icons-template/icons/moon.svg"
+                alt=""
+                id="img_icon_mode"
+              />
+            </button>
+            <!-- LINKS NAVBAR -->
+            <a
+              class="nav-link fw-bold text-gray-light"
+              id="menu-link"
+              href="#home"
+              data-section="home"
+              data-value="link_one_index"
+              >Home</a
+            >
+            <a
+              class="nav-link fw-bold text-gray-light"
+              id="menu-link"
+              href="#about"
+              data-section="home"
+              data-value="link_two_index"
+              >About</a
+            >
+            <a
+              class="nav-link fw-bold text-gray-light"
+              id="menu-link"
+              href="#services"
+              data-section="home"
+              data-value="link_three_index"
+              >Services</a
+            >
+            <a
+              class="nav-link fw-bold text-gray-light"
+              id="menu-link"
+              href="#contact"
+              data-section="home"
+              data-value="link_four_index"
+              >Contact</a
+            >
+            <a
+              class="nav-link btn btn-blue-king text-light fw-bold mt-1 mb-3 me-2"
+              href="./login.html"
+              data-section="home"
+              data-value="button_navbar"
+              >Sign In</a
+            >
+            <!-- FLAGS  -->
+            <div id="flags" class="d-flex">
+              <p class="nav-link" data-language="es">
+                <img src="../static/img/españa.png" alt="españa" width="20" />
+              </p>
+              <p class="nav-link" data-language="en">
+                <img
+                  src="../static/img/reino_unido.png"
+                  alt="reino unido"
+                  width="20"
+                />
+              </p>
+              <p class="nav-link" data-language="fr">
+                <img src="../static/img/frances.png" alt="francia" width="20" />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Home -->
+    <div class="container" id="home">
+      <div class="row vh-100 gap-5">
+        <div
+          class="col-md-6 d-flex flex-column justify-content-center h-100 text-center text-md-justify"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+        >
+          <h1 class="text-blue-king display-5 fw-bold mb-2" data-section="home" data-value="title_home_section">
+            We offer modern solutions for growing your business
+          </h1>
+          <p class="fw-semibold fs-4 my-3" data-section="home" data-value="description_home_section">
+            We are team of talented designers making websites with Bootstrap
+          </p>
+          <!-- Button trigger modal -->
+          <a
+            class="open-modal btn btn-teal fs-4 fw-bold col-6 py-2 mx-auto"
+            data-bs-toggle="modal"
+            data-bs-target="#Modal"
+            data-section="home"
+            data-value="button_home_section"
+          >
+            Get Started &rarr;</a
+          >
+        </div>
+        <div
+          class="col-md-5 justify-content-center align-items-center h-100 d-none d-md-flex"
+          data-aos="zoom-in-left"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+        >
+          <img
+            src="../static/img/home.svg"
+            alt="Developers Illustration"
+            id="image-home"
+          />
         </div>
       </div>
     </div>
-  </nav>
-  <!-- Home -->
-  <div class="container" id="home">
-    <div class="row vh-100 gap-5">
-      <div class="col-md-6 d-flex flex-column justify-content-center h-100 text-center text-md-justify"
-        data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
-        <h1 class="text-blue-king display-5 fw-bold mb-2">
-          We offer modern solutions for growing your business
-        </h1>
-        <p class="fw-semibold fs-4 my-3">
-          We are team of talented designers making websites with Bootstrap
-        </p>
-        <!-- Button trigger modal -->
-        <a class="open-modal btn btn-teal fs-4 fw-bold col-6 py-2 mx-auto" data-bs-toggle="modal"
-          data-bs-target="#Modal">
-          Get Started &rarr;</a>
-      </div>
-      <div class="col-md-5 justify-content-center align-items-center h-100 d-none d-md-flex" data-aos="zoom-in-left"
-        data-aos-duration="1000" data-aos-delay="500">
-        <img src="../static/img/home.svg" alt="Developers Illustration" id="image-home" />
-      </div>
-    </div>
-  </div>
-  <!-- About -->
-  <div class="container" id="about">
-    <div class="row vh-100 gap-5">
-      <div class="col-md-6 d-flex flex-column justify-content-center" data-aos="fade-up-right" data-aos-duration="1000"
-        data-aos-delay="500">
-        <h5 class="fs-5 fw-bold text-blue-king">WHO WE ARE</h5>
-        <h4 class="fs-3 fw-bold text-dark-blue">
-          Expedita voluptas omnis cupiditate totam eveniet nobis sint iste.
-          Dolores est repellat corrupti reprehenderit.
-        </h4>
-        <p class="my-2">
-          Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et.
-          Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam
-          nam ipsum tenetur suscipit voluptatum nam et est corrupti.
-        </p>
-      </div>
-      <div class="col-md-5 d-flex justify-content-center align-items-center" data-aos="fade-up-left"
-        data-aos-duration="1000" data-aos-delay="500">
-        <img src="../static/img/about.svg" alt="Developers Team Illustration" id="image-home" />
+    <!-- About -->
+    <div class="container" id="about">
+      <div class="row vh-100 gap-5">
+        <div
+          class="col-md-6 d-flex flex-column justify-content-center"
+          data-aos="fade-up-right"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+        >
+          <h5 class="fs-5 fw-bold text-blue-king" data-section="home" data-value="subtitle_about_section">WHO WE ARE</h5>
+          <h4 class="fs-3 fw-bold text-dark-blue" data-section="home" data-value="title_about_section">
+            developer group full stack solution developers
+          </h4>
+          <p class="my-2" data-section="home" data-value="description_about_section">
+            We are team of talented designers making websites with Bootstrap and angular
+          </p>
+        </div>
+        <div
+          class="col-md-5 d-flex justify-content-center align-items-center"
+          data-aos="fade-up-left"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+        >
+          <img
+            src="../static/img/about.svg"
+            alt="Developers Team Illustration"
+            id="image-home"
+          />
+        </div>
       </div>
     </div>
-  </div>
-  <!-- Services -->
-  <div class="container" id="services">
-    <div class="row d-flex justify-content-between" id="container-cards-services">
-      <!-- First Card -->
-      <div class="col-md-4 d-flex justify-content-center align-items-center flex-column text-center" data-aos="fade-up"
-        data-aos-duration="1000" data-aos-delay="500">
-        <h3>Nesciunt Mete</h3>
-        <p>
-          Provident nihil minus qui consequatur non omnis maiores. Eos
-          accusantium minus dolores iure perferendis tempore et consequatur.
-        </p>
-        <div class="w-100 bg-primary p-1"></div>
-      </div>
-      <!-- Second Card -->
-      <div class="col-md-4 d-flex justify-content-center align-items-center flex-column text-center" data-aos="fade-up"
-        data-aos-duration="1200" data-aos-delay="500">
-        <h3>Eosle Commodi</h3>
-        <p class="my-3">
-          Ut autem aut autem non a. Sint sint sit facilis nam iusto sint.
-          Libero corrupti neque eum hic non ut nesciunt dolorem.
-        </p>
-        <div class="w-100 bg-info p-1"></div>
-      </div>
-      <!-- Three Card -->
-      <div class="col-md-4 d-flex justify-content-center align-items-center flex-column text-center" data-aos="fade-up"
-        data-aos-duration="1400" data-aos-delay="500">
-        <h3>Ledo Markt</h3>
-        <p>
-          Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea
-          aut. Vel qui id voluptas adipisci eos earum corrupti.
-        </p>
-        <div class="w-100 bg-teal p-1"></div>
-      </div>
-      <!-- Four Card -->
-      <div class="col-md-4 d-flex justify-content-center align-items-center flex-column text-center" data-aos="fade-up"
-        data-aos-duration="1600" data-aos-delay="500">
-        <h3>Nesciunt Mete</h3>
-        <p>
-          Provident nihil minus qui consequatur non omnis maiores. Eos
-          accusantium minus dolores iure perferendis tempore et consequatur.
-        </p>
-        <div class="w-100 bg-orange p-1"></div>
-      </div>
-      <!-- Five Card -->
-      <div class="col-md-4 d-flex justify-content-center align-items-center flex-column text-center" data-aos="fade-up"
-        data-aos-duration="1800" data-aos-delay="500">
-        <h3>Eosle Commodi</h3>
-        <p class="my-3">
-          Ut autem aut autem non a. Sint sint sit facilis nam iusto sint.
-          Libero corrupti neque eum hic non ut nesciunt dolorem.
-        </p>
-        <div class="w-100 bg-success p-1"></div>
-      </div>
-      <!-- Six Card -->
-      <div class="col-md-4 d-flex justify-content-center align-items-center flex-column text-center" data-aos="fade-up"
-        data-aos-duration="2000" data-aos-delay="500">
-        <h3>Ledo Markt</h3>
-        <p>
-          Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea
-          aut. Vel qui id voluptas adipisci eos earum corrupti.
-        </p>
-        <div class="w-100 bg-purple p-1"></div>
+    <!-- Services -->
+    <div class="container" id="services">
+      <div
+        class="row d-flex justify-content-between"
+        id="container-cards-services"
+      >
+        <!-- First Card -->
+        <div
+          class="col-md-4 d-flex justify-content-center align-items-center flex-column text-center"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+        >
+          <h3 data-section="home" data-value="card_01_title">Analysis</h3>
+          <p data-section="home" data-value="card_01_description">
+            Requirements analysis and solution design
+          </p>
+          <div class="w-100 bg-primary p-1"></div>
+        </div>
+        <!-- Second Card -->
+        <div
+          class="col-md-4 d-flex justify-content-center align-items-center flex-column text-center"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+          data-aos-delay="500"
+        >
+          <h3 data-section="home" data-value="card_02_title">Development</h3>
+          <p class="my-3" data-section="home" data-value="card_02_description">
+            Solution Developmen
+          </p>
+          <div class="w-100 bg-info p-1"></div>
+        </div>
+        <!-- Three Card -->
+        <div
+          class="col-md-4 d-flex justify-content-center align-items-center flex-column text-center"
+          data-aos="fade-up"
+          data-aos-duration="1400"
+          data-aos-delay="500"
+        >
+          <h3 data-section="home" data-value="card_03_title">Testing</h3>
+          <p data-section="home" data-value="card_03_description">
+            Solution testing
+          </p>
+          <div class="w-100 bg-teal p-1"></div>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- Footer -->
-  <footer class="container" id="contact">
-    <div class="d-flex justify-content-between align-items-center">
-      <h2 class="fs-3 text-blue-king fw-bold">Flex Start</h2>
-      <div>
-        <img src="../util/icons-template/icons/twitter.svg" alt="" width="30" class="mx-3" />
-        <img src="../util/icons-template/icons/facebook.svg" alt="" width="30" class="mx-3" />
-        <img src="../util/icons-template/icons/youtube.svg" alt="" width="30" class="mx-3" />
+    <!-- Footer -->
+    <footer class="container" id="contact">
+      <div class="d-flex justify-content-between align-items-center">
+        <h2 class="fs-3 text-blue-king fw-bold">Flex Start</h2>
+        <div>
+          <img
+            src="../util/icons-template/icons/twitter.svg"
+            alt=""
+            width="30"
+            class="mx-3"
+          />
+          <img
+            src="../util/icons-template/icons/facebook.svg"
+            alt=""
+            width="30"
+            class="mx-3"
+          />
+          <img
+            src="../util/icons-template/icons/youtube.svg"
+            alt=""
+            width="30"
+            class="mx-3"
+          />
+        </div>
       </div>
-    </div>
-    <div class="text-center">
-      <p class="text-teal">
-        &copy; John Gualteros 2022. All rights reserved.
-      </p>
-    </div>
-  </footer>
-  <!-- Modal -->
-
-  <section class="modal">
-    <div class="modal-content">
-
-      <div class="pe-4 pt-4 text-end">
-        <a href="#" class="modal__close">
-          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x-circle"
-            viewBox="0 0 16 16">
-            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-            <path
-              d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
-          </svg>
-        </a>
+      <div class="text-center">
+        <p class="text-teal" data-section="home" data-value="footer_title">
+          &copy; John Gualteros 2022. All rights reserved.
+        </p>
       </div>
+    </footer>
+    <!-- Modal -->
 
-      <div class="w-75 mt-3 me-auto ms-auto">
-        <h2 class="display-4 text-center fw-bold text-blue-king">Register</h2>
-        <form action="" method="post">
-          <div class="mb-4 ">
-            <label for="name" class="form-label fw-bold fs-4 my-2">Name:</label>
-            <input type="text" class="form-control fs-5" id="name" placeholder="Enter your name">
-          </div>
-          <div class="mb-4">
-            <label for="lastname" class="form-label fw-bold fs-4 my-2">Lastname:</label>
-            <input type="text" class="form-control fs-5" id="lastname" placeholder="Enter your lastname">
-          </div>
-          <div class="mb-4">
-            <label for="numberdocument" class="form-label fw-bold fs-4 my-2">Number document:</label>
-            <input type="number" class="form-control fs-5" id="numberdocument" placeholder="Enter your number document">
-          </div>
-          <div class="mb-4">
-            <label for="email" class="form-label fw-bold fs-4 my-2">Email:</label>
-            <input type="email" class="form-control fs-5" id="email" placeholder="name@example.com">
-          </div>
+    <section class="modal">
+      <div class="modal-content">
+        <div class="pe-4 pt-4 text-end">
+          <a href="#" class="modal__close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              fill="currentColor"
+              class="bi bi-x-circle"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+              />
+              <path
+                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+              />
+            </svg>
+          </a>
+        </div>
 
-          <div class="d-grid">
-            <a class="btn btn-teal p-3 w-75 fw-bold rounded shadow-sm my-5 fs-5 m-auto" href="./login.html">Register</a>
-          </div>
-        </form>
+        <div class="w-75 mt-3 me-auto ms-auto">
+          <h2 class="display-4 text-center fw-bold text-blue-king">Register</h2>
+          <form action="" method="post">
+            <div class="mb-4">
+              <label for="name" class="form-label fw-bold fs-4 my-2"
+                >Name:</label
+              >
+              <input
+                type="text"
+                class="form-control fs-5"
+                id="name"
+                placeholder="Enter your name"
+              />
+            </div>
+            <div class="mb-4">
+              <label for="lastname" class="form-label fw-bold fs-4 my-2"
+                >Lastname:</label
+              >
+              <input
+                type="text"
+                class="form-control fs-5"
+                id="lastname"
+                placeholder="Enter your lastname"
+              />
+            </div>
+            <div class="mb-4">
+              <label for="numberdocument" class="form-label fw-bold fs-4 my-2"
+                >Number document:</label
+              >
+              <input
+                type="number"
+                class="form-control fs-5"
+                id="numberdocument"
+                placeholder="Enter your number document"
+              />
+            </div>
+            <div class="mb-4">
+              <label for="email" class="form-label fw-bold fs-4 my-2"
+                >Email:</label
+              >
+              <input
+                type="email"
+                class="form-control fs-5"
+                id="email"
+                placeholder="name@example.com"
+              />
+            </div>
+
+            <div class="d-grid">
+              <a
+                class="btn btn-teal p-3 w-75 fw-bold rounded shadow-sm my-5 fs-5 m-auto"
+                href="./login.html"
+                >Register</a
+              >
+            </div>
+          </form>
+        </div>
       </div>
-    </div>
+    </section>
 
-  </section>
-  
-  <script src="../static/js/darkmode.js"></script>
-  <script src="../static/js/modal.js"></script>
-  <!-- SCRIPT BOOTSTRAP -->
-  <script src="../util/colors-template-master/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-  <!-- SCRIPT AOS -->
-  <script src="../util/aos-master/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-</body>
-
+    <!-- SCRIPT LANGUAGE -->
+    <script src="../static/js/language.js"></script>
+    <!-- SCRIPT DARKMODE-->
+    <script src="../static/js/darkmode.js"></script>
+    <script src="../static/js/modal.js"></script>
+    <!-- SCRIPT BOOTSTRAP -->
+    <script src="../util/colors-template-master/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- SCRIPT AOS -->
+    <script src="../util/aos-master/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
