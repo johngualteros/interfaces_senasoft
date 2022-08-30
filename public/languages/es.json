@@ -1,0 +1,22 @@
+{
+    "home":{
+        "link_one_index":"Inicio",
+        "link_two_index":"Nosotros",
+        "link_three_index":"Servicios",
+        "link_four_index":"Contacto",
+        "button_navbar": "Iniciar Sesión",
+        "title_home_section": "Ofrecemos soluciones modernas para hacer crecer su negocio",
+        "description_home_section": "Somos un equipo de diseñadores talentosos que hacemos sitios web con Bootstrap",
+        "button_home_section": "Empezar",
+        "subtitle_about_section": "QUIENES SOMOS",
+        "title_about_section": "grupo de desarrolladores desarrolladores de soluciones full stack",
+        "description_about_section": "Somos un equipo de talentosos diseñadores que crean sitios web con Bootstrap y angular.",
+        "card_01_title": "Análisis",
+        "card_01_description": "Análisis de requerimientos y diseño de la solución",
+        "card_02_title": "Desarrollo",
+        "card_02_description": "Desarrollo de la solución",
+        "card_03_title": "Pruebas",
+        "card_03_description": "Pruebas de la solución",
+        "footer_title": "©John Gualteros 2022. Todos los derechos reservados."
+    }
+}
