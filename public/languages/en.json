@@ -18,5 +18,24 @@
         "card_03_title": "Testing",
         "card_03_description": "Solution testing",
         "footer_title": "©John Gualteros 2022. All rights reserved."
+    },
+    "login":{
+        "title_login":"Sign In",
+        "label_email":"Email",
+        "label_password":"Password",
+        "login_button":"Login",
+        "text_login_1":"If you wanna go back Please",
+        "text_redirect":"Click Here",
+        "text_login_2":"You not are register ?"
+    },
+    "register":{
+        "register_title":"Register",
+        "register_label_name":"Name",
+        "register_label_lastName":"Last Name",
+        "register_label_email":"Email",
+        "register_label_numberDocument":"Number document",
+        "text_register":"Go Back",
+        "text_register_link":"Click here"
+
     }
 }

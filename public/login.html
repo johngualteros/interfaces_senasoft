@@ -23,38 +23,59 @@
     </div>
     <div class="col-md-7 d-flex justify-content-center align-items-center flex-column">
       <form class="w-75" id="formLogin">
-        <div class="w-100 text-end">
+        <div class="w-100 d-flex justify-content-end align-items-center">
           <button type="button" class="bg-transparent fw-bold border-0" id="icon_mode">
             <img src="../util/icons-template/icons/moon.svg" alt="" id="img_icon_mode" width="30">
           </button>
+          <div id="flags" class="d-flex justify-content-center align-items-center">
+            <p class="nav-link" data-language="es">
+              <img src="../static/img/españa.png" alt="españa" width="20" />
+            </p>
+            <p class="nav-link" data-language="en">
+              <img
+                src="../static/img/reino_unido.png"
+                alt="reino unido"
+                width="20"
+              />
+            </p>
+            <p class="nav-link" data-language="fr">
+              <img src="../static/img/frances.png" alt="francia" width="20" />
+            </p>
+          </div>
         </div>
-        <h1 class="display-4 text-center fw-bold text-blue-king">Sign In</h1>
+        <h1 class="display-4 text-center fw-bold text-blue-king" data-section="login" data-value="title_login">Sign In</h1>
 
         <div class="mb-3">
-          <label for="email" class="fw-bold fs-4 my-2">Email</label>
+          <label for="email" class="fw-bold fs-4 my-2" data-section="login" data-value="label_email">Email</label>
           <div class="position-relative">
-            <input type="email" class="form-control fs-5 bg-transparent text-gray-light" id="email" autofocus placeholder="Enter your email address" />
+            <input type="email" class="form-control fs-5 bg-transparent text-gray-light" id="email" autofocus placeholder="user@gmail.com" />
             <span class="text-danger fw-semibold position-absolute top-0 h-100 end-0 bottom-0" id="error"></span>
           </div>
         </div>
         <div class="mb-3">
-          <label for="password" class="fw-bold fs-4 my-2">Password</label>
+          <label for="password" class="fw-bold fs-4 my-2" data-section="login" data-value="label_password">Password</label>
           <div class="position-relative">
-            <input type="password" class="form-control fs-5 bg-transparent text-gray-light" id="password" placeholder="Enter your password" />
+            <input type="password" class="form-control fs-5 bg-transparent text-gray-light" id="password" placeholder="1234567890" />
             <span class="text-danger fw-semibold position-absolute top-0 h-100 end-0 bottom-0"
               id="errorPassword"></span>
           </div>
         </div>
 
         <button  class="btn btn-blue-king w-100 fw-bold rounded shadow-sm my-5 fs-5 py-2" id="btnLogin">
-          <a href="../public/dashboard.html" class="text-decoration-none text-light px-5">Log in</a>
+          <a href="../public/dashboard.html" class="text-decoration-none text-light px-5" data-section="login" data-value="login_button">Log in</a>
         </button>
       </form>
-      <p class="text-center mt-5">
-        If you wanna go back Please
-        <span><a href="./index.html" class="text-blue-king fw-bold">Click Here</a></span><br />
-        You not are register?
-        <span><a href="./register.html" class="text-blue-king fw-bold">Click Here</a></span>
+      <p class="text-center">
+
+        <span class="text-center mt-5" data-section="login" data-value="text_login_1">
+          If you wanna go back Please
+        </span>
+        
+        <span><a href="./index.html" class="text-blue-king fw-bold" data-section="login" data-value="text_redirect">Click Here</a></span><br />
+        
+        <span data-section="login" data-value="text_login_2">You not are register?</span>
+        
+        <span><a href="./register.html" class="text-blue-king fw-bold" data-section="login" data-value="text_redirect">Click Here</a></span>
       </p>
     </div>
   </section>

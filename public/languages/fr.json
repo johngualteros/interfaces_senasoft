@@ -19,5 +19,23 @@
         "card_03_description": "Test de solutions",
         "footer_title": "©John Gualteros 2022. Tous droits réservés."
     
+    },
+    "login":{
+        "title_login":"Connexion",
+        "label_email":"Messagerie électronique",
+        "label_password":"le mot de passe",
+        "login_button":"Connexion",
+        "text_login_1":"Si tu veux revenir",
+        "text_redirect":"Cliquez ici",
+        "text_login_2":"Vous n'êtes pas enregistré"
+    },
+    "register":{
+        "register_title":"Enregistrer",
+        "register_label_name":"Nom",
+        "register_label_lastName":"Le nom",
+        "register_label_email":"Courrier électronique",
+        "register_label_numberDocument":"Numéro de document",
+        "text_register":"Retourner",
+        "text_register_link":"Cliquez ici"
     }
 }
