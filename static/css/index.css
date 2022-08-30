@@ -314,6 +314,10 @@ body .container_login{
   grid-template-columns: 50% auto;
   grid-template-rows: 50% auto;
 }
+.darkmode .containerRegister, .darkmode h2{
+  color:white;
+  background: #353f74;
+}
 .container_table {
   grid-column: 1/3;
 }

@@ -17,11 +17,15 @@
     <div class="container h-75  shadow-lg">
       <div class="row h-100">
         <div class="col d-none d-md-block bg col-md-5 col-lg-5 col-xl-6 rounded">
-          
         </div>
-        <div class="col bg-white d-flex align-items-center justify-content-center flex-column redounded-end">
-          <h2 class="fw-bold text-blue-king display-5 text-center py-3">Register</h2>
-          <form class="w-75"  action="login.html" method="post">
+        <div class="col containerRegister d-flex align-items-center justify-content-center flex-column redounded-end">
+          <div class="w-100 text-end">
+            <button type="button" class="bg-transparent fw-bold m-1 border-0" id="icon_mode">
+              <img src="../util/icons-template/icons/moon.svg" alt="" id="img_icon_mode" width="30">
+            </button>
+          </div>
+          <h2 class="fw-bold  text-blue-king display-5 text-center py-3">Register</h2>
+          <form class="w-75 "  action="login.html" method="post">
                     <div class="mb-4 ">
                         <label for="name" class="form-label fs-5 fw-bold">Name:</label>
                         <input type="text" class="form-control" required id="name" placeholder="Enter your Name ">
@@ -46,6 +50,7 @@
         </div>
       </div>
     </div>
+    <script src="../static/js/darkmode.js"></script>
     <script src="../util/aos-master/dist/aos.js"></script>
     <script>
       AOS.init();
